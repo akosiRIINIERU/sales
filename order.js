@@ -37,7 +37,7 @@ async function initializeApp() {
 
 function setupEventListeners() {
     // Navigation buttons
-    elements.backBtn.addEventListener('click', () => window.location.href = '/dashboard.html');
+    elements.backBtn.addEventListener('click', () => window.location.href = '/index.html');
     elements.logoutBtn.addEventListener('click', handleLogout);
     
     // Order actions

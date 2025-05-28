@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Navigation buttons
     document.getElementById('backBtn').addEventListener('click', function() {
-        window.location.href = 'dashboard.html';
+        window.location.href = 'indexs.html';
     });
 
     document.getElementById('logoutBtn').addEventListener('click', function() {
